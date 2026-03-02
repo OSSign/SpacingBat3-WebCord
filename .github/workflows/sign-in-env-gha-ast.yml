@@ -61,8 +61,8 @@ jobs:
         shell: bash
         run: |
           npm run make -- -a x64
-          ls -al out/devel/make/
-          ls -al out/devel/make/* || true
+          ls -al out/release/make/
+          ls -al out/release/make/* || true
 
       # - name: Upload artifacts
       #   uses: actions/upload-artifact@v4
